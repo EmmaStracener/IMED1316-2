@@ -66,8 +66,7 @@ p {
     margin-top: 15px;
     border: 10px solid var(--accentColor) !important;
     border-radius: 50%;
-    clip-path: polygon(0 0, 100% 0%, 100% 36%, 0 60%);
-
+    clip-path: circle(50% at 50% 50%)
 }
 
 .headshots {
