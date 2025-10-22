@@ -30,11 +30,22 @@
 
         <!-- radio buttons -->
         <strong>Yes or No?</strong><br />
-        <input type="radio" name="MyDecision" id="myRadio" value="Yes" required />Yes<br />
-        <input type="radio" name="MyDecision-1" id="myRadio" value="No" />No
+        <input type="radio" name="MyDecision" id="myRadio-yes" value="Yes" required /><label for="myRadio-yes"> Yes
+        </label><br />
+        <input type="radio" name="MyDecision" id="myRadio-no" value="No" /> /><label for="myRadio-no"></label> No
+        </label>
         <br />
 
-        <input type="submit" value="Submit Form" id="submit" />
+        <!-- checkbox -->
+        <strong>Pick all that apply</strong><br />
+        <input type="checkbox" name="MyDecisionCheckbox" id="myCheckbox-yes" value="Yes" required />
+        <lable for="myCheckbox-yes"> Yes </label></Yes><br />
+            <input type="checkbox" name="MyDecisionCheckbox" id="myCheckbox-no" value="No" /><label
+                for="myCheckbox-no">No </label>
+            <br />
+
+
+            <input type="submit" value="Submit Form" id="submit" />
     </form>
 
     <script src="js/form.js"></script>
