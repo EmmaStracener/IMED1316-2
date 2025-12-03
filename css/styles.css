@@ -87,3 +87,12 @@ p {
 .lottiefiles h2 {
     color: #ffffff !important;
 }
+
+
+/*webaim constrast errors*/
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #000000 !important;
+    width: 100px;
+    height: 100px;
+}
